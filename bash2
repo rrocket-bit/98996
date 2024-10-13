@@ -1,0 +1,99 @@
+Here’s a list of practical lab exercises for each day of your 6-week Bash mastery plan. These labs focus on solving everyday problems that a Linux system engineer or administrator might encounter, helping you apply your scripting knowledge in real-world scenarios.
+
+### **Week 1: Basics and File Operations**
+- **Day 1**: 
+   - **Lab**: Create a script to automate directory navigation. The script should list all files in the directory and allow you to move up or down between directories with simple inputs.
+   
+- **Day 2**:
+   - **Lab**: Write a script to automate file creation. The script should take user input for file names and create files in a given directory.
+   
+- **Day 3**:
+   - **Lab**: Automate the process of checking disk usage with a script that lists top 5 largest files and directories. Bonus: include a feature to delete files interactively.
+   
+- **Day 4**:
+   - **Lab**: Create a simple script that backs up a directory to another location using `rsync`. It should handle options like excluding specific files or directories.
+
+- **Day 5**:
+   - **Lab**: Write a script to monitor free disk space and send an alert (email or log) when disk space falls below a certain threshold.
+
+### **Week 2: Basic Automation and User Management**
+- **Day 1**:
+   - **Lab**: Create a script that adds, deletes, or modifies users in a system based on input (simulate a basic user management tool).
+   
+- **Day 2**:
+   - **Lab**: Automate the creation of a new user and home directory, assigning permissions and groups correctly.
+
+- **Day 3**:
+   - **Lab**: Write a script to clean up old log files. Set it to delete logs older than 30 days and archive others.
+
+- **Day 4**:
+   - **Lab**: Automate the rotation of logs for a particular service using Bash. Incorporate timestamping and log archiving.
+   
+- **Day 5**:
+   - **Lab**: Create a script to run daily and collect system information (uptime, memory usage, CPU usage, and network statistics) into a report.
+
+### **Week 3: Functions, Error Handling, and Network Automation**
+- **Day 1**:
+   - **Lab**: Write a function-based script that automates network diagnostics. It should be able to run `ping`, `traceroute`, and `nslookup` based on user selection.
+   
+- **Day 2**:
+   - **Lab**: Create a script that checks if a list of IP addresses is reachable and logs the response times. Add error handling for network failures.
+   
+- **Day 3**:
+   - **Lab**: Write a function to download and verify large files from a URL. It should use checksum to ensure integrity and handle network errors gracefully.
+
+- **Day 4**:
+   - **Lab**: Create a script that scans open ports on a local machine and outputs the results to a file, checking for common services like SSH, HTTP, etc.
+   
+- **Day 5**:
+   - **Lab**: Automate the creation of SSH keys for passwordless authentication between two machines and configure `~/.ssh/config` for easy connection.
+
+### **Week 4: Advanced File Handling and Data Processing**
+- **Day 1**:
+   - **Lab**: Create a script that processes log files (e.g., Apache, Nginx). Extract specific details like IP addresses, response codes, or URLs, and generate a report.
+   
+- **Day 2**:
+   - **Lab**: Automate a script to parse CSV files and convert them into different formats, such as JSON or XML.
+
+- **Day 3**:
+   - **Lab**: Write a script that monitors a directory for new files and processes each file (e.g., compress or move) once it is detected.
+   
+- **Day 4**:
+   - **Lab**: Automate the creation of tarballs for backup purposes, ensuring that important directories are archived regularly. Include an option to restore from the backup.
+   
+- **Day 5**:
+   - **Lab**: Write a script to search through log files for specific patterns (e.g., failed login attempts) and summarize them in a report.
+
+### **Week 5: Performance Optimization and System Health Monitoring**
+- **Day 1**:
+   - **Lab**: Create a script to monitor system load and CPU usage. The script should log high usage spikes and send notifications if load exceeds a certain threshold.
+
+- **Day 2**:
+   - **Lab**: Write a script to monitor memory usage and free up memory by clearing cache or killing idle processes if a certain memory threshold is exceeded.
+
+- **Day 3**:
+   - **Lab**: Automate a backup process for critical system configuration files (e.g., `/etc/`) using `rsync`. The script should also verify integrity using checksum before copying.
+
+- **Day 4**:
+   - **Lab**: Create a script to measure disk I/O performance over time and alert the user if performance degrades.
+   
+- **Day 5**:
+   - **Lab**: Write a script that monitors the performance of services (like web servers) and sends alerts if the service is unresponsive or slow to respond.
+
+### **Week 6: Project and Final Review**
+- **Day 1-4**:
+   - **Lab**: Develop a comprehensive automation project:
+     - **Scenario**: Automate the setup of a Linux web server.
+     - Tasks:
+       1. Install web server packages (e.g., Apache or Nginx).
+       2. Configure firewall rules.
+       3. Create virtual hosts or configure SSL certificates.
+       4. Automate the creation of regular backups for the web directory.
+       5. Set up monitoring scripts for uptime and resource usage.
+
+- **Day 5**:
+   - **Lab**: Review and finalize the scripts you've created. Test them for edge cases, errors, and efficiency. Create documentation or comments to explain the purpose and use of each script.
+
+---
+
+This lab-focused approach will give you hands-on experience with real-world tasks while helping you become proficient in Bash scripting. Let me know if you want further details on any specific lab exercise!
